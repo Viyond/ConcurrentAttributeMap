@@ -1,5 +1,7 @@
 # ConcurrentAttributeMap
 Access a map with internal array index.
+
+
 map操作数组化，高并发下大量的map操作会成为计算热点，通过转化为内部数组操作，减少cpu消耗。
 
 工作机制说明
