@@ -12,7 +12,7 @@ map操作数组化，高并发下大量的map操作会成为计算热点，通�
 
 3、当使用AttributeKey访问时，会使用关联的固定id作为数组index进行数组访问，避免了hash计算等一系列操作。
 
-对比HashMap和ConcurrentAttributeMap，性能提升30%
+对比HashMap和DefaultAttributeMap，性能提升30%
 
 PUT：
 
